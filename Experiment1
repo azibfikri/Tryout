@@ -1,0 +1,16 @@
+package eXpe1;
+
+public class Tryout1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("Trying System.out.printf function\n\n");
+		
+		String name = "rozaimi" ;
+		int number = 80;
+		double balance = 1.20 ;
+		
+		System.out.printf("your name is %s\n" + "your age is %d \n" + "this is your balance RM%.1f", name, number, balance);
+	}
+
+}
